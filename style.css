@@ -46,3 +46,16 @@ body {
   #options label{
     margin: 10px;
   }
+
+
+  .container .author{
+    text-align: center ;
+    margin-top: 20px;
+  }
+
+  .container .author p {
+    font-style: italic;
+    font-weight: bold;
+    color: #555;
+    font-size: 14px;
+  }

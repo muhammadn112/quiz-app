@@ -46,7 +46,7 @@ function nextQuestion() {
     showScore();
   }
 }
-function prevQuestion() {
+function prevQuestion() {0
   currentQuestionIndex--;
   if (currentQuestionIndex >=0 && currentQuestionIndex < questions.length) {
     showQuestion();
