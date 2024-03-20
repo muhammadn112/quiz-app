@@ -78,6 +78,8 @@ function showScore() {
   backButton.style.display = "none";
   startOverButton.style.display = "inline";
 
+  clearInterval(timer);
+
   startOverButton.addEventListener("click", () => {
     currentQuestionIndex = 0;
     score = 0;
