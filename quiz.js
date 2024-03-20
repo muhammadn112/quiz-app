@@ -41,8 +41,18 @@ function showQuestion() {
 
 function checkAnswer(selectedOption) {
   const currentQuestion = questions[currentQuestionIndex];
+  const options = document.getElementsByName('option');
+  for(let i = 0; i<options.length; i++){
+    options[i].disabled = true;
+
+  }
+  clearInterval(timer);
   if (selectedOption === currentQuestion.answer) {
     score++;
+
+    if (score>question.length){
+      score = question.length;
+    }
     resultElement.textContent = "Correct!";
   } else {
     resultElement.textContent =
