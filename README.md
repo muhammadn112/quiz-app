@@ -23,7 +23,7 @@ Welcome to Quiz-App, a simple quiz application developed using Vanilla JavaScrip
 
 ## Author
 
-[Muhammad Altaf Noorani]
+Muhammad Altaf Noorani
 
 ## License
 
